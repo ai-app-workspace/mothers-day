@@ -153,35 +153,23 @@ export default function Home() {
                 Dear Mom,
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                On this special day, I wanted to create something just for you to express just how much you mean to me.
-                Words can't fully capture the depth of my gratitude, but I'll spend my whole life trying.
+                I wanted to create something to express how much you mean to me. I went through pictures on my phone and chose my very favorite ones. I hope you enjoy these amazing memories.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Thank you for believing in me when I doubted myself. Thank you for your endless sacrifices,
-                your unconditional love, and for always being my biggest cheerleader. Most of all, thank you
-                for <span className="font-semibold text-pink-600">paying for my college education</span> —
-                a gift that has shaped my entire future and opened doors I never thought possible.
+                Thank you for always believing in me. I am so grateful for your prayers and support. Without you, I would not have had the best four years of my life at William and Mary, and I would not be the person I am today.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Your investment in my education wasn't just financial — it was an investment in my dreams,
-                my potential, and my future. You never once hesitated. You just said, "Go learn, grow, and
-                become who you're meant to be."
+                I also wanted to thank you for always putting us first. My life has been so wonderful and I have you to thank for that.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                As you come down to celebrate my graduation with me, I want you to know that this achievement
-                is as much yours as it is mine. Every late night studying, every exam passed, every lesson
-                learned — it all started with your love and support.
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                You are my role model, my hero, and my best friend. I hope I can be even half the person
-                you are.
+                You are the best mom in the world, and I will do everything in my power to make you proud.
               </p>
               <p className="text-gray-700 leading-relaxed font-semibold">
-                I love you more than words can say. Happy Mother's Day!
+                I love you so very much Mom. Happy Mother's Day!
               </p>
               <p className="text-gray-700 leading-relaxed mt-8">
-                With all my love,<br />
-                Your Grateful Child
+                Love,<br />
+                Nathaniel Callabresi
               </p>
             </div>
             <div className="mt-8 flex justify-center gap-2">
