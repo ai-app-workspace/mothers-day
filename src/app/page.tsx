@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const photos = [
   { src: "/old.jpg", alt: "Throwback", caption: "Looking back with love" },
-  { src: "/family_nature.jpg", alt: "In nature", caption: "Adventures with you" },
+  { src: "/wm_arrival.jpg", alt: "Arrival day", caption: "New beginnings" },
   { src: "/holding_cat.jpg", alt: "With our furry friend", caption: "Even the cats love you" },
   { src: "/holding_corgi.jpg", alt: "Corgi cuddles", caption: "Puppy love runs in the family" },
   { src: "/hs_grad.jpg", alt: "High school graduation", caption: "You were there for every milestone" },
@@ -17,7 +17,7 @@ const photos = [
   { src: "/walking_dogs.jpg", alt: "Dog walking", caption: "Simple joys together" },
   { src: "/walking_dogs_family.jpg", alt: "Family walk", caption: "Walking through life together" },
   { src: "/waterfall_selfie.jpg", alt: "Waterfall adventure", caption: "Chasing waterfalls" },
-  { src: "/wm_arrival.jpg", alt: "Arrival day", caption: "New beginnings" },
+  { src: "/family_nature.jpg", alt: "In nature", caption: "Adventures with you" },
 ];
 
 export default function Home() {
