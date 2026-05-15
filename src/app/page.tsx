@@ -23,6 +23,7 @@ const photos = [
 export default function Home() {
   const [revealedSections, setRevealedSections] = useState<Set<string>>(new Set());
   const [hearts, setHearts] = useState<Array<{ id: number; left: number; delay: number; size: number }>>([]);
+  const [activeCard, setActiveCard] = useState<number | null>(null);
 
   useEffect(() => {
     // Generate floating hearts
@@ -119,6 +120,7 @@ export default function Home() {
                 id={`photo-${index}`}
                 className="scroll-reveal group"
                 style={{ transitionDelay: `${index * 50}ms` }}
+                onClick={() => setActiveCard(activeCard === index ? null : index)}
               >
                 <div className="photo-card bg-white">
                   <Image
@@ -128,7 +130,7 @@ export default function Home() {
                     height={400}
                     className="w-full h-auto aspect-square object-cover transition-transform duration-500 group-hover:scale-110"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                  <div className={`absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent transition-opacity duration-300 flex items-end p-4 ${activeCard === index ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`}>
                     <p className="text-white text-sm font-medium">{photo.caption}</p>
                   </div>
                 </div>
