@@ -190,11 +190,10 @@ export default function Home() {
               Graduation Day!
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Today isn't just about graduation — it's about celebrating YOU, Mom.
+              Thank you for coming to my graduation! None of it would have been possible without you.
             </p>
             <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
-              Every degree, every certificate, every achievement I'll ever earn
-              bears your name as much as mine. Thank you for making this day possible.
+              Once again, I am so grateful for your prayers and support. You are also in mine.
             </p>
             <div className="flex justify-center gap-4 flex-wrap">
               <span className="text-5xl">🎉</span>
