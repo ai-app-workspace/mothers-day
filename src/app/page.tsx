@@ -4,14 +4,14 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 
 const photos = [
-  { src: "/family_gf.jpg", alt: "Family time", caption: "Precious moments together" },
+  { src: "/old.jpg", alt: "Throwback", caption: "Looking back with love" },
   { src: "/family_nature.jpg", alt: "In nature", caption: "Adventures with you" },
   { src: "/holding_cat.jpg", alt: "With our furry friend", caption: "Even the cats love you" },
   { src: "/holding_corgi.jpg", alt: "Corgi cuddles", caption: "Puppy love runs in the family" },
   { src: "/hs_grad.jpg", alt: "High school graduation", caption: "You were there for every milestone" },
   { src: "/IMG_2959.jpg", alt: "Special memory", caption: "A moment I'll never forget" },
   { src: "/mom_and_i.jpg", alt: "Mom and me", caption: "The bond that never breaks" },
-  { src: "/old.jpg", alt: "Throwback", caption: "Looking back with love" },
+  { src: "/family_gf.jpg", alt: "Family time", caption: "Precious moments together" },
   { src: "/posing_in_museum.jpg", alt: "Museum day", caption: "Culture and love" },
   { src: "/sunglasses_solo.jpg", alt: "Cool mom", caption: "The coolest mom ever" },
   { src: "/walking_dogs.jpg", alt: "Dog walking", caption: "Simple joys together" },
@@ -108,11 +108,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="scroll-reveal text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-pink-600 to-rose-500 bg-clip-text text-transparent">
-              Our Beautiful Memories
+              Memories
             </h2>
-            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              Every photo tells a story of your endless love
-            </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
