@@ -4,20 +4,20 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 
 const photos = [
-  { src: "/old.jpg", alt: "Throwback", caption: "Looking back with love" },
-  { src: "/wm_arrival.jpg", alt: "Arrival day", caption: "New beginnings" },
-  { src: "/holding_cat.jpg", alt: "With our furry friend", caption: "Even the cats love you" },
-  { src: "/holding_corgi.jpg", alt: "Corgi cuddles", caption: "Puppy love runs in the family" },
-  { src: "/hs_grad.jpg", alt: "High school graduation", caption: "You were there for every milestone" },
-  { src: "/IMG_2959.jpg", alt: "Special memory", caption: "A moment I'll never forget" },
-  { src: "/mom_and_i.jpg", alt: "Mom and me", caption: "The bond that never breaks" },
-  { src: "/family_gf.jpg", alt: "Family time", caption: "Precious moments together" },
-  { src: "/posing_in_museum.jpg", alt: "Museum day", caption: "Culture and love" },
-  { src: "/sunglasses_solo.jpg", alt: "Cool mom", caption: "The coolest mom ever" },
-  { src: "/walking_dogs.jpg", alt: "Dog walking", caption: "Simple joys together" },
-  { src: "/walking_dogs_family.jpg", alt: "Family walk", caption: "Walking through life together" },
-  { src: "/waterfall_selfie.jpg", alt: "Waterfall adventure", caption: "Chasing waterfalls" },
-  { src: "/family_nature.jpg", alt: "In nature", caption: "Adventures with you" },
+  { src: "/old.jpg", alt: "Throwback", caption: "Lady is so pretty" },
+  { src: "/wm_arrival.jpg", alt: "Arrival day", caption: "Move in day!" },
+  { src: "/holding_cat.jpg", alt: "With our furry friend", caption: "Miss Kitty?" },
+  { src: "/holding_corgi.jpg", alt: "Corgi cuddles", caption: "I have never seen Percy this happy" },
+  { src: "/hs_grad.jpg", alt: "High school graduation", caption: "High school graduation!" },
+  { src: "/IMG_2959.jpg", alt: "Special memory", caption: "Cuteeee" },
+  { src: "/mom_and_i.jpg", alt: "Mom and me", caption: "This was so funnnnn" },
+  { src: "/family_gf.jpg", alt: "Family time", caption: "Best Thanksgiving ever!" },
+  { src: "/posing_in_museum.jpg", alt: "Museum day", caption: "Classic" },
+  { src: "/sunglasses_solo.jpg", alt: "Cool mom", caption: "Coolest mom ever!😎" },
+  { src: "/walking_dogs.jpg", alt: "Dog walking", caption: "Dog walk 1" },
+  { src: "/walking_dogs_family.jpg", alt: "Family walk", caption: "Dog walk 2" },
+  { src: "/waterfall_selfie.jpg", alt: "Waterfall adventure", caption: "I cannot believe I actually went in the water!" },
+  { src: "/family_nature.jpg", alt: "In nature", caption: "Homestead free hike!" },
 ];
 
 export default function Home() {
