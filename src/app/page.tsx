@@ -155,7 +155,7 @@ export default function Home() {
                 Dear Mom,
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                I wanted to create something to express how much you mean to me. I went through pictures on my phone and chose my very favorite ones. I hope you enjoy these amazing memories.
+                I wanted to create something to express how much you mean to me. I went through pictures on my phone and chose my very favorite pictures of you. I hope you enjoy these amazing memories.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Thank you for always believing in me. I am so grateful for your prayers and support. Without you, I would not have had the best four years of my life at William and Mary, and I would not be the person I am today.
@@ -171,7 +171,7 @@ export default function Home() {
               </p>
               <p className="text-gray-700 leading-relaxed mt-8">
                 Love,<br />
-                Nathaniel Callabresi
+                Nathaniel
               </p>
             </div>
             <div className="mt-8 flex justify-center gap-2">
