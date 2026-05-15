@@ -100,7 +100,7 @@ export default function Home() {
             <span className="text-4xl animate-heart inline-block delay-100">💖</span>
             <span className="text-4xl animate-heart inline-block delay-200">💕</span>
           </div>
-          <p className="mt-12 text-gray-500 animate-pulse">Scroll down for a surprise ↓</p>
+          <p className="mt-12 text-gray-500 animate-pulse">Scroll down ↓</p>
         </div>
       </section>
 
